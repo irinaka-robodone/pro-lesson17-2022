@@ -20,12 +20,27 @@ left_motor = Motor(Port.B)
 right_motor = Motor(Port.C)
 robot = DriveBase(left_motor, right_motor,55, 120)
 
-color_sensor = ColorSensor(Port.S3)
-touch_sensor = TouchSensor(Port.S1)
+# color_sensor = ColorSensor(Port.S3)
+# touch_sensor = TouchSensor(Port.S1)
 
-while not color_sensor.color() == Color.RED:
-    if color_sensor.reflection() <50:
-        robot.drive(100,50)
-    elif color_sensor.re
-    else:
-        robot.drive(100,-50)
+# while not color_sensor.color() == Color.RED:
+#     if color_sensor.reflection() <50:
+#         robot.drive(100,50)
+#     elif color_sensor.re
+#     else:
+#         robot.drive(100,-50)
+# a = 1
+# if a > 2robot.turn(-90)
+# elserobot.turn(90］
+# a = 1
+# if a > 2:
+#     robot.turn(-90)
+# else:
+#     robot.turn(90)
+
+
+# food = "onigiri"
+# if food == "omusubi":
+#     ev3.speaker.beep(440)
+# else:
+#     ev3.speaker.beep(660)
